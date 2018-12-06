@@ -12,6 +12,14 @@ class AppContainer extends Component {
     // const {dispatch, fetchPeopleFlag} = this.props
     // dispatch(fetchPeople())
     // alert('1:'+dispatch) // 这里可以看到dispatch的函数
+
+    // 打印出来的dispach
+        // function (action){
+        //     if(typeof action === 'function'){
+        //         return action(dispatch,getState,extraArgument);
+        //     }
+        //     return next(action)
+        // }
   }
   render() {
     let content = <PeopleList people={this.props.rondomPeople.people} />;
