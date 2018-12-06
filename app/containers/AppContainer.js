@@ -13,7 +13,7 @@ class AppContainer extends Component {
     // dispatch(fetchPeople())
     // alert('1:'+dispatch) // 这里可以看到dispatch的函数
 
-    // 打印出来的dispach
+    // 打印出来的这个dispatch 是经过redux-thunk改造过了的。 没通过中间件thunk的dispach和这个是不一样的
         // function (action){
         //     if(typeof action === 'function'){
         //         return action(dispatch,getState,extraArgument);
